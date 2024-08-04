@@ -27,7 +27,7 @@
             const dynamicStandingBalance = document.querySelector('input[name="dynamicStandingBalance"]:checked')?.value || 'Not selected';
 
             // Combine all inputs into one text
-            const combinedText = `
+            const combinedText = '
                 Subjective:
                 History: ${history}
                 Previous Functional Level: ${previousFunctionalLevel}
@@ -55,9 +55,9 @@
 </head>
 <body>
     <h2>Subjective:</h2>
-    History: <input type="text" id="history"><br>
-    Previous Functional Level: <input type="text" id="previousFunctionalLevel"><br>
-    Occupational/Social History: <input type="text" id="socialHistory"><br><br>
+    History: <input type="textarea" id="history"><br>
+    Previous Functional Level: <input type="textarea" id="previousFunctionalLevel"><br>
+    Occupational/Social History: <input type="textarea" id="socialHistory"><br><br>
 
     <h2>Objective Measures:</h2>
     Blood Pressure: <input type="text" id="bloodPressure"><br>
