@@ -25,6 +25,7 @@
     Walking Distance: <input type="text" id="walkingDistance"><br>
     Device Used: <input type="text" id="deviceUsed"><br><br>
 
+    <h2> Balance: <h3/>
     <h3>Static Seated Balance:</h3>
     <input type="radio" name="staticSeatedBalance" value="Poor"> Poor
     <input type="radio" name="staticSeatedBalance" value="Fair -"> Fair -
@@ -52,14 +53,60 @@
     <input type="radio" name="staticStandingBalance" value="Normal"> Normal
     <input type="radio" name="dynamicSeatedBalance" value="Not Tested"> Not Tested<br>
 
-    <h3>Dynamic Standing Balance:</h3>
-    <input type="radio" name="dynamicStandingBalance" value="Poor"> Poor
-    <input type="radio" name="dynamicStandingBalance" value="Fair -"> Fair -
-    <input type="radio" name="dynamicStandingBalance" value="Fair"> Fair
-    <input type="radio" name="dynamicStandingBalance" value="Fair +"> Fair +
-    <input type="radio" name="dynamicStandingBalance" value="Good"> Good
-    <input type="radio" name="dynamicStandingBalance" value="Normal"> Normal
-    <input type="radio" name="dynamicSeatedBalance" value="Not Tested"> Not Tested <br><br>
+
+
+    <h2> Cognition</h2>3>
+      <h3>Orientation:</h3>
+    <input type="radio" name="orientation" value="Person"> Person
+    <input type="radio" name="orientation" value="Place"> PLace
+    <input type="radio" name="orientation" value="Time"> Time
+    <input type="radio" name="orientation" value="Situation"> Situation
+    <input type="radio" name="orientation" value="Not Tested"> Not Tested<br>
+
+      <h3>Commands:</h3>
+    <input type="radio" name="commands" value="Complex"> Complex
+    <input type="radio" name="commands" value="1step"> 1-Step
+    <input type="radio" name="commands" value="unabletofollow"> Unable to Follow
+    <input type="radio" name="commands" value="Not Tested"> Not Tested<br>
+
+        <h3>Behavior:</h3>
+    <input type="radio" name="behavior" value="appriopriate"> Appriopriate
+    <input type="radio" name="behavior" value="impulsive"> Impulsive
+    <input type="radio" name="behavior" value="restless"> Restless
+    <input type="radio" name="behavior" value="distractible"> Distractible
+    <input type="radio" name="behavior" value="agitated"> Agitated
+    <input type="radio" name="behavior" value="lethargic> Lethargic <br>
+
+<br>
+
+    <h2> Physical Exmamination <h2/>
+        <h3>Strength:</h3>
+    UE: <br>
+        L shoulder flexion: <input type="text" id="lshoulderflexion"><br>
+        R shoulder flexion: <input type="text" id="rshoulderflexion"><br>
+        L shoulder abduction:<input type = "text" id="lshoulderabduction"><br>
+        R shoulder abduction: <input type="text" id="rshoulderabduction"><br>
+        L biceps: <input type="text" id="lbiceps"> <br>
+        R biceps: <input type="text" id="rbiceps"> <br>
+        L triceps: <input type="text" id="ltriceps"> <br>
+        R triceps: <input type="text" id="rtriceps"> <br>
+        L grip strength: <input type="type" id="lgripstrength"> <br>
+        R grip strength: <input type="type" id="rgripstrength"> <br> <br>
+
+    LE:    
+        L hip flexion: <input type="text" id="lhipflexion"><br>
+        R hip flexion: <input type="text" id="rhipflexion"><br>
+        L hip abduction:<input type = "text" id="lhipabduction"><br>
+        R hip abduction: <input type="text" id="rhipabduction"><br>
+        L hip adduction:<input type = "text" id="lhipadduction"><br>
+        R hip adduction: <input type="text" id="rhipadduction"><br>
+        L knee extension: <input type="text" id="lkneeextension"> <br>
+        R knee extension: <input type="text" id="rkneeextension"> <br>
+        L knee flexion: <input type="text" id="lkneeflexion"> <br>
+        R knee flexion: <input type="text" id="rkneeflexion"> <br>
+        L dorsiflexion: <input type="type" id="ldorsiflexion"> <br>
+        R dorsiflexion: <input type="type" id="rdorsiflexion"> <br>
+
 
     <button type="button" onclick="combineInputs()">Create</button><br><br>
 
